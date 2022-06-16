@@ -1,0 +1,17 @@
+Algoritmo de Dijkstra.
+También llamado algoritmo de caminos mínimos, es un algoritmo para la determinación del camino más corto dado un vértice origen al resto
+de vértices en un grafo con pesos en cada arista.
+Su nombre se refiere a Edsger Dijkstra, quien lo describió por primera vez en 1959.
+
+Aplicaciones
+En múltiples aplicaciones donde se aplican los grafos, es necesario conocer el camino de menor costo entre dos vértices dados:
+- Distribución de productos a una red de establecimientos comerciales.
+- Distribución de correos postales.
+- Sea G = (V, A) un grafo dirigido ponderado.
+El problema del camino más corto de un vértice a otro consiste en determinar el camino de menor costo, desde un vértice u a otro vértice v.
+El costo de un camino es la suma de los costos (pesos) de los arcos que lo conforman.
+
+Características del algoritmo
+1. Es un algoritmo greddy.
+1. Trabaja por etapas, y toma en cada etapa la mejor solución sin considerar consecuencias futuras.
+1. El óptimo encontrado en una etapa puede modificarse posteriormente si surge una solución mejor.
